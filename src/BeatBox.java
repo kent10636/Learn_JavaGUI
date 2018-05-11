@@ -66,7 +66,7 @@ public class BeatBox {
         mainPanel = new JPanel(grid);
         background.add(BorderLayout.CENTER, mainPanel);
 
-        for (int i = 0; i < 256; i++) {
+        for (int i = 0; i < 256; i++) {  //创建checkbox组，设定成未勾选的为false并加到ArrayList和面板上
             JCheckBox c = new JCheckBox();
             c.setSelected(false);
             checkboxList.add(c);
@@ -80,7 +80,7 @@ public class BeatBox {
         theFrame.setVisible(true);
     }
 
-    public void setUpMidi() {
+    public void setUpMidi() {  //Midi设置
         try {
             sequencer = MidiSystem.getSequencer();
             sequencer.open();
@@ -92,72 +92,73 @@ public class BeatBox {
         }
     }
 
-    public void buildTrackAndStart() {
+    public void buildTrackAndStart() {  //创建出16个元素的数组来存储一项乐器的值
         int[] trackList = null;
 
+        //清除掉旧的track做一个新的
         sequence.deleteTrack(track);
         track = sequence.createTrack();
 
-        for (int i = 0; i < 16; i++) {
+        for (int i = 0; i < 16; i++) {  //对每个乐器执行一次
             trackList = new int[16];
 
-            int key = instruments[i];
+            int key = instruments[i];  //设定代表乐器的关键字
 
-            for (int j = 0; j < 16; j++) {
+            for (int j = 0; j < 16; j++) {  //对每一拍执行一次
                 JCheckBox jc = (JCheckBox) checkboxList.get(j + (16 * i));
-                if (jc.isSelected()) {
+                if (jc.isSelected()) {  //如果有勾选，将关键字值放到数组的该位置上，不然就补零
                     trackList[j] = key;
                 } else {
                     trackList[j] = 0;
                 }
             }
 
-            makeTracks(trackList);
+            makeTracks(trackList);  //创建此乐器的事件并加到track上
             track.add(makeEvent(176, 1, 127, 0, 16));
         }
 
-        track.add(makeEvent(192, 9, 1, 0, 15));
+        track.add(makeEvent(192, 9, 1, 0, 15));  //确保第16拍有事件，否则beatbox不会重复播放
         try {
             sequencer.setSequence(sequence);
-            sequencer.setLoopCount(sequencer.LOOP_CONTINUOUSLY);
-            sequencer.start();
+            sequencer.setLoopCount(sequencer.LOOP_CONTINUOUSLY);  //指定无穷的重复次数
+            sequencer.start();  //开始播放
             sequencer.setTempoInBPM(120);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public class MyStartListener implements ActionListener {
+    public class MyStartListener implements ActionListener {  //内部类，Start按钮的监听者
         public void actionPerformed(ActionEvent a) {
             buildTrackAndStart();
         }
     }
 
-    public class MyStopListener implements ActionListener {
+    public class MyStopListener implements ActionListener {  //内部类，Stop按钮的监听者
         public void actionPerformed(ActionEvent a) {
             sequencer.stop();
         }
     }
 
-    public class MyUpTempoListener implements ActionListener {
+    public class MyUpTempoListener implements ActionListener {  //内部类，UpTempo按钮的监听者
         public void actionPerformed(ActionEvent a) {
             float tempoFactor = sequencer.getTempoFactor();
-            sequencer.setTempoFactor((float) (tempoFactor * 1.03));
+            sequencer.setTempoFactor((float) (tempoFactor * 1.03));  //节奏因子，预设为1.0，每次调整3%
         }
     }
 
-    public class MyDownTempoListener implements ActionListener {
+    public class MyDownTempoListener implements ActionListener {  //内部类，DownTempo按钮的监听者
         public void actionPerformed(ActionEvent a) {
             float tempoFactor = sequencer.getTempoFactor();
-            sequencer.setTempoFactor((float) (tempoFactor * .97));
+            sequencer.setTempoFactor((float) (tempoFactor * .97));  //节奏因子，预设为1.0，每次调整3%
         }
     }
 
-    public void makeTracks(int[] list) {
+    public void makeTracks(int[] list) {  //创建某项乐器的所有事件
         for (int i = 0; i < 16; i++) {
             int key = list[i];
 
-            if (key != 0) {
+            if (key != 0) {  //创建NOTE ON和NOTE OFF事件并加入到track上
                 track.add(makeEvent(144, 9, key, 100, i));
                 track.add(makeEvent(128, 9, key, 100, i + 1));
             }

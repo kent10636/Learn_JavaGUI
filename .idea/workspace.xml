@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2fa4df-7917-4ddc-83c5-92e71440bed8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/MiniMusicPlayer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/MiniMusicPlayer3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/Panel1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/Panel1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/SimpleAnimation$MyDrawPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SimpleAnimation$MyDrawPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/SimpleAnimation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SimpleAnimation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/SimpleGui1B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SimpleGui1B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/SimpleGui3C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SimpleGui3C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TextArea1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TextArea1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TwoButtons$ColorListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TwoButtons$ColorListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TwoButtons$LabelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TwoButtons$LabelListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/TwoButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/TwoButtons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniMusicPlayer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniMusicPlayer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Panel1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Panel1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleGui1B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleGui1B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleGui3C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleGui3C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TextArea1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextArea1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoButtons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BeatBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeatBox.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +17,8 @@
       <file leaf-file-name="BeatBox.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BeatBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="611">
+              <caret line="160" column="61" selection-start-line="160" selection-start-column="61" selection-end-line="160" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#817#818#0" expanded="true" />
@@ -231,7 +214,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -449,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BeatBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="611">
+          <caret line="160" column="61" selection-start-line="160" selection-start-column="61" selection-end-line="160" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#817#818#0" expanded="true" />
