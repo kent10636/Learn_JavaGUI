@@ -4,14 +4,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TextArea1 implements ActionListener {
-    JTextArea text;
+    private JTextArea text;
 
     public static void main(String[] args) {
         TextArea1 gui = new TextArea1();
         gui.go();
     }
 
-    public void go() {
+    private void go() {
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
         JButton button = new JButton("Just Click It");

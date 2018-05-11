@@ -7,7 +7,7 @@ public class Panel1 {
         gui.go();
     }
     /*
-    public void go() {  //BorderLayout
+    private void go() {  //BorderLayout
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
         panel.setBackground(Color.darkGray);
@@ -24,7 +24,7 @@ public class Panel1 {
     }
     */
     /*
-    public void go() {  //框架默认为BoxLayout，面板默认为FlowLayout
+    private void go() {  //框架默认为BoxLayout，面板默认为FlowLayout
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
         panel.setBackground(Color.darkGray);
@@ -41,7 +41,7 @@ public class Panel1 {
     }
     */
 
-    public void go() {  //BoxLayout
+    private void go() {  //BoxLayout
         JFrame frame = new JFrame();
         JPanel panel = new JPanel();
         panel.setBackground(Color.darkGray);

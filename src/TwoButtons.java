@@ -4,15 +4,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TwoButtons {  //主要的GUI类不实现ActionListener
-    JFrame frame;
-    JLabel label;
+    private JFrame frame;
+    private JLabel label;
 
     public static void main(String[] args) {
         TwoButtons gui = new TwoButtons();
         gui.go();
     }
 
-    public void go() {
+    private void go() {
         frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -30,7 +30,7 @@ public class TwoButtons {  //主要的GUI类不实现ActionListener
         frame.getContentPane().add(BorderLayout.EAST, labelButton);
         frame.getContentPane().add(BorderLayout.WEST, label);
 
-        frame.setSize(300, 300);
+        frame.setSize(400, 300);
         frame.setVisible(true);
     }
 

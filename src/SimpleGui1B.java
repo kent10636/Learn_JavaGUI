@@ -3,14 +3,14 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SimpleGui1B implements ActionListener {  //实现接口，表示SimpleGui1B是个ActionListener（事件只会通知有实现ActionListener的类）
-    JButton button;
+    private JButton button;
 
     public static void main(String[] args) {
         SimpleGui1B gui = new SimpleGui1B();
         gui.go();
     }
 
-    public void go() {
+    private void go() {
         JFrame frame = new JFrame();
         button = new JButton("click me");
 

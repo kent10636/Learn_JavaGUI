@@ -3,22 +3,22 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MiniMusicPlayer3 {
-    static JFrame f = new JFrame("My First Music Video");
-    static MyDrawPanel m1;
+    private static JFrame f = new JFrame("My First Music Video");
+    private static MyDrawPanel m1;
 
     public static void main(String[] args) {
         MiniMusicPlayer3 mini = new MiniMusicPlayer3();
         mini.go();
     }
 
-    public void setUpGui() {
+    private void setUpGui() {
         m1 = new MyDrawPanel();
         f.setContentPane(m1);
         f.setBounds(30, 30, 300, 300);
         f.setVisible(true);
     }
 
-    public void go() {
+    private void go() {
         setUpGui();
 
         try {
@@ -44,7 +44,7 @@ public class MiniMusicPlayer3 {
         }
     }
 
-    public MidiEvent makeEvent(int comd, int chan, int one, int two, int tick) {
+    private MidiEvent makeEvent(int comd, int chan, int one, int two, int tick) {
         MidiEvent event = null;
         try {
             ShortMessage a = new ShortMessage();
