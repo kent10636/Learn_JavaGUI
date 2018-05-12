@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2fa4df-7917-4ddc-83c5-92e71440bed8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/BeatBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BeatBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/BeatBox$MyDownTempoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/BeatBox$MyDownTempoListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/BeatBox$MyStartListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/BeatBox$MyStartListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/BeatBox$MyStopListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/BeatBox$MyStopListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/BeatBox$MyUpTempoListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/BeatBox$MyUpTempoListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/BeatBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/BeatBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BeatBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MiniMusicPlayer3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyDrawPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Panel1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleAnimation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleGui1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleGui1B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleGui3C.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextArea1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoButtons.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,26 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BeatBox.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BeatBox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="160" column="61" selection-start-line="160" selection-start-column="61" selection-end-line="160" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#4217#4218#0" expanded="true" />
-                <element signature="e#4261#4262#0" expanded="true" />
-                <element signature="e#4363#4364#0" expanded="true" />
-                <element signature="e#4395#4396#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,10 +58,12 @@
         <option value="$PROJECT_DIR$/src/MiniMusicPlayer3.java" />
         <option value="$PROJECT_DIR$/src/MyDrawPanel.java" />
         <option value="$PROJECT_DIR$/src/BeatBox.java" />
+        <option value="$PROJECT_DIR$/src/DailyAdviceClient.java" />
+        <option value="$PROJECT_DIR$/src/DailyAdviceServer.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -76,6 +76,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -93,7 +94,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -116,9 +116,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BeatBox">
+  <component name="RunManager" selected="Application.DailyAdviceClient">
     <configuration name="BeatBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BeatBox" />
+      <module name="test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DailyAdviceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DailyAdviceClient" />
+      <module name="test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DailyAdviceServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DailyAdviceServer" />
       <module name="test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -129,16 +139,6 @@
     </configuration>
     <configuration name="MyDrawPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyDrawPanel" />
-      <module name="test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="SimpleGui1B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleGui1B" />
-      <module name="test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="SimpleGui3C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleGui3C" />
       <module name="test" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -184,19 +184,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleGui1B" />
-      <item itemvalue="Application.SimpleGui3C" />
       <item itemvalue="Application.MiniMusicPlayer3" />
       <item itemvalue="Application.MyDrawPanel" />
       <item itemvalue="Application.BeatBox" />
+      <item itemvalue="Application.DailyAdviceClient" />
+      <item itemvalue="Application.DailyAdviceServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DailyAdviceClient" />
+        <item itemvalue="Application.DailyAdviceServer" />
         <item itemvalue="Application.BeatBox" />
         <item itemvalue="Application.MyDrawPanel" />
         <item itemvalue="Application.MiniMusicPlayer3" />
-        <item itemvalue="Application.SimpleGui3C" />
-        <item itemvalue="Application.SimpleGui1B" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +215,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -225,7 +224,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32553193" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32553193" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -251,16 +250,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BeatBox.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3996">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BeatBox.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2673">
           <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#4217#4218#0" expanded="true" />
-            <element signature="e#4261#4262#0" expanded="true" />
-            <element signature="e#4363#4364#0" expanded="true" />
-            <element signature="e#4395#4396#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -432,16 +435,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BeatBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="160" column="61" selection-start-line="160" selection-start-column="61" selection-end-line="160" selection-end-column="61" />
+        <state relative-caret-position="3834">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#4217#4218#0" expanded="true" />
-            <element signature="e#4261#4262#0" expanded="true" />
-            <element signature="e#4363#4364#0" expanded="true" />
-            <element signature="e#4395#4396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DailyAdviceServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DailyAdviceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
