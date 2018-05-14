@@ -70,8 +70,8 @@ public class SimpleChatClient {
         @Override
         public void actionPerformed(ActionEvent ev) {
             try {
-                if (outgoing.getText().trim().equals("") || outgoing.getText().length() == 0) {  //判断输入框是否为空
-                    System.out.println("input can not be empty");
+                if (outgoing.getText().trim().equals("") || outgoing.getText().length() == 0) {  //判断输入框是否为空（考虑了输出空格的情况）
+                    System.out.println("input can not be empty");  //trim()用于切除字符串两端的空格；String.trim().equals("")用于判断去除两端空格后的字符串是否与equal()括号中的字符串相等
                 } else {
                     writer.println(outgoing.getText());
                     writer.flush();
